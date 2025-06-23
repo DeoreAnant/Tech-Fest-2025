@@ -1,9 +1,9 @@
-# Tech-Fest-2025 🎉
+# Tech-Fest-2025 
 
  A static HTML-only landing page for a tech festival.  
  Built using core HTML elements (headings, lists, tables, forms) — no CSS/JS!
 
-### Features
+#### Features
 - Navigation menu
 - Event sections with images
 - Event schedule table
