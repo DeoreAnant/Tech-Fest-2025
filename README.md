@@ -1,15 +1,27 @@
-# Tech-Fest-2025 
+# Tech-Fest-2025 🎉
 
- A static HTML-only landing page for a tech festival.  
- Built using core HTML elements (headings, lists, tables, forms) — no CSS/JS!
+A clean and simple **static landing page** for a tech festival.  
+Built using core **HTML and CSS** — no JavaScript, no animations!
 
-#### Features
-- Navigation menu
-- Event sections with images
-- Event schedule table
-- Registration form
-- Contact information
+## ✨ Features
 
-🔗 Live: [https://yourusername.github.io/Tech-Fest-2025/](https://deoreanant.github.io/Tech-Fest-2025/)
+- Responsive navigation menu  
+- Event sections with themed images  
+- Event schedule in tabular format  
+- Registration form with input validation  
+- Contact information section  
+- Simple, styled layout with Google Fonts
 
----
+## 🛠 Tech Stack
+
+- HTML5
+- CSS3 (no frameworks)
+- Google Fonts (Merienda)
+
+## 🔗 Live Demo
+
+[🚀 View Site](https://DeoreAnant.github.io/Tech-Fest-2025/)
+
+
+
+
