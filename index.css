@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: hwb(196 95% 1%);
+  color: #100f0f;
+  line-height: 1.5;
+  padding: 20px;
+}
+body {
+  font-family:  cursive;
+}
+
+/* For Nav bar */
+nav {
+  background-color: #e3e3e3;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-left: 5px solid #0047ab;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0047ab;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline ;
+  color: rgb(74, 211, 40);
+  
+}
+
+/*  For Headings */
+h1, h2, h3 {
+  color: #6f6565;
+  margin-bottom: 10px;
+}
+/* For image */
+img, image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+img, image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border: 3px solid #727171;         /* Light gray border */
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 10px;             /* Optional: Rounded corners */
+}
+
+/* For  Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #9249eb;
+  color: white;
+}
+
+/* Registration Form */
+form {
+  background-color: #e7e2e2;
+  padding: 20px;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+/* For lables of forms */
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #47b553;
+}
+
+/*  For Footer */
+footer {
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-top: 3px solid #0047ab;
+  text-align: center;
+}
+
+footer a {
+  color: #0047ab;
+  text-decoration: none;
+  font-weight: bold;
+}
