@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech-Fest-2025</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 
 </head>
 <body><hr>
@@ -91,28 +93,34 @@
         </table><br><br>
 <hr><br><br>
 
-        <form action="#">
-            <p id="Registration Form"><h2><u><b><b><b><b> <i>Registration Form</i> </b></b></b></b></u></h2>
-            <p>Please fill out the form below to register for Tech Fest 2025:</p>
-            <label for="name">Name:-</label><br>
-            <input type="text" id="name" name="name" required><br>
-            
-            <label for="email">Email:-</label><br>
-            <input type="email" id="email" name="email" required><br>
-            
-            <label for="phone">Phone Number:-</label><br>
-            <input type="tel" id="phone" name="phone" required><br>
-            
-            <label for="domain">Domain of Interest:-</label><br><br>
-            <select id="domain" name="domain">
-                <option value="web-development">Web Development 🌐</option>
-                <option value="mobile-app-development">Mobile App Development 📱</option>
-                <option value="data-science">Data Science 👨‍🔬📊📉📈</option>
-                <option value="artificial-intelligence">Artificial Intelligence 🤖 </option>
-            </select><br><br>
-            
-            <input type="submit" value="Register">
-        </form><br><br>
+       <form action="#">
+
+  <h2 id="registration-form"><u><b><i>Registration Form</i></b></u></h2>
+  
+  <p>Please fill out the form below to register for Tech Fest 2025:</p>
+
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required placeholder="Enter your full name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required placeholder="example@gmail.com"><br><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" required placeholder="EX. 987654xxxx"><br><br>
+
+  <label for="domain">Domain of Interest:</label><br>
+  <select id="domain" name="domain" required>
+    <option value="" disabled selected>Select a domain</option>
+    <option value="web-development">Web Development 🌐</option>
+    <option value="mobile-app-development">Mobile App Development 📱</option>
+    <option value="data-science">Data Science 👨‍🔬📊📉📈</option>
+    <option value="artificial-intelligence">Artificial Intelligence 🤖</option>
+  </select><br><br>
+
+  <input type="submit" value="Register">
+
+</form>
+
        
     </section><hr>
     <footer><p id="Contact us"><h2>Contact us</h2></p> 
