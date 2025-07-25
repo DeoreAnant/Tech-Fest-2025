@@ -84,10 +84,11 @@ th {
 /* Registration Form */
 form {
   background-color: #e7e2e2;
-  padding: 20px;
+  padding: 50px;
   border: 1px solid #c2c2c2;
-  border-radius: 8px;
-  max-width: 500px;
+  border-radius: 60px;
+  max-width: 30%;
+  
 }
 
 /* For lables of forms */
