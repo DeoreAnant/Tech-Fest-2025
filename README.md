@@ -15,7 +15,7 @@ Built using core **HTML and CSS** — no JavaScript, no animations!
 ## 🛠 Tech Stack
 
 - HTML5
-- CSS3 (no frameworks)
+- CSS (no frameworks)
 - Google Fonts (Merienda)
 
 ## 🔗 Live Demo
